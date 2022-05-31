@@ -1,14 +1,24 @@
 <!DOCTYPE html>
     <html lang="en">
         <head>
+            <link rel="stylesheet" href="styles.css">
             <meta charset="utf-8">
+            <style>
+                h1.internal {
+                    background-color: green;
+                    color: white;
+                    font-size: 18px;
+                }
+            </style>
             <title>Odin Recipes</title>
         </head>
         <body>
-            <h1>Odin Recipes</h1>
-            <ul>
-                <li><a href="./recipes/lasagna.html">Lasagna</a></li>
-                <li><a href="./recipes/deviled_eggs.html">Wasabi Deviled Eggs</a></li>
-            </ul>
+            <h1 class="internal">Odin Recipes</h1>
+            <div class="external">
+                <ul>
+                    <li><a href="./recipes/lasagna.html" style="background-color: orange; font-size: 18px;">Lasagna</a></li>
+                    <li><a href="./recipes/deviled_eggs.html" style="background-color: orange; font-size: 18px;">Wasabi Deviled Eggs</a></li>
+                </ul>
+            </div>
         </body>
     </html>
